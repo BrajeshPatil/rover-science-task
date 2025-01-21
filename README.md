@@ -8,8 +8,6 @@ Module designed for in-situ soil testing directly on the rover.
   - [About the project](#about-the-project)
     - [Requirements of the Science Module](#requirements-of-the-science-module)
     - [Working](#working)
-  - [Contributors](#contributors)
-  - [Acknowledgements and Resources](#acknowledgements-and-resources)
 
 # Overview
 Vishwa, Vjti participated in the International Rover Challenge 2023. The rover primarily was supposed to perform four tasks: 
