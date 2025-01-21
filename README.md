@@ -38,7 +38,7 @@ The following are the requirements of the Science Module:
 
 Following mecahnical design was made to achieve these requirements:
 
-| <img src="https://github.com/user-attachments/assets/505d1ccb-4033-4dc9-970c-caf54a1e185e" style="width:300px;"> | <img src="https://github.com/user-attachments/assets/cf1292f8-9e6c-47e9-9faf-bec5a3ce0b93" style="width:300px;"> |
+| <img src="https://github.com/user-attachments/assets/505d1ccb-4033-4dc9-970c-caf54a1e185e" style="height:200px;"> | <img src="https://github.com/user-attachments/assets/cf1292f8-9e6c-47e9-9faf-bec5a3ce0b93" style="height:200px;"> |
 
 Working of the Science Module:
 - We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
