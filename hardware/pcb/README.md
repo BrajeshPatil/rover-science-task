@@ -1,4 +1,4 @@
-#Science Task PCB
+# Science Task PCB
 To address the need for simultaneous operation of multiple sensors and electro-mechanical components in the Science Task, we designed a custom shield compatible with the Arduino Mega 2560. The shield simplifies wiring by neatly integrating the connections, reducing clutter, and ensuring a clean and reliable setup.
 This shield enables interfacing with a variety of sensors, including:
 - BMP180 (Barometric Pressure and Temperature Sensor)
