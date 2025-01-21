@@ -58,20 +58,20 @@ Working
 File Structure
 
 .
-├── hardware                            # Contains data sheets and PCB manufacturing files
-│   ├── datasheets                      # Data sheets for sensors and components
-│   ├── pcb                             # PCB-related files
-│   │   └── PCB_Gerber_Files            # Gerber files for PCB manufacturing
-│   ├── README.md                       # Information about hardware components and designs
-├── lib                                  # Libraries used in the project
-│   ├── AccelStepper-1.64.0.zip          # Stepper motor library
-│   ├── Adafruit_BMP085_Library-1.2.4.zip # Library for BMP085 sensor
-│   ├── Adafruit_MLX90614_Library-2.1.5.zip # Library for MLX90614 sensor
-│   ├── DFRobot_SHT20-1.0.0.zip          # Library for SHT20 sensor
-│   ├── DHT-sensor-library-master.zip    # DHT sensor library
-│   ├── MQ135-1.1.1.zip                  # MQ135 air quality sensor library
-│   ├── README.md                        # Documentation for libraries used
-├── src                                  # Source code for the rover project
-│   ├── science_task.ino                 # Main sketch for the Science Task
-├── LICENSE                              # License file for the project
-└── README.md                            # Main README file for the repository
+├──hardware                            # Contains data sheets and PCB manufacturing files
+│  ├──datasheets                      # Data sheets for sensors and components
+│  ├──pcb                             # PCB-related files
+│  │   └──PCB_Gerber_Files            # Gerber files for PCB manufacturing
+│  ├──README.md                       # Information about hardware components and designs
+├──lib                                  # Libraries used in the project
+│  ├──AccelStepper-1.64.0.zip          # Stepper motor library
+│  ├──Adafruit_BMP085_Library-1.2.4.zip # Library for BMP085 sensor
+│  ├──Adafruit_MLX90614_Library-2.1.5.zip # Library for MLX90614 sensor
+│  ├──DFRobot_SHT20-1.0.0.zip          # Library for SHT20 sensor
+│  ├──DHT-sensor-library-master.zip    # DHT sensor library
+│  ├──MQ135-1.1.1.zip                  # MQ135 air quality sensor library
+│  ├──README.md                        # Documentation for libraries used
+├──src                                  # Source code for the rover project
+|  ├──science_task.ino                 # Main sketch for the Science Task
+├──LICENSE                              # License file for the project
+└──README.md                            # Main README file for the repository
