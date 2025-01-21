@@ -12,4 +12,5 @@ Additionally, the shield provides interfaces for:
 - A4988 stepper motor driver for controlling the NEMA17 stepper motor.
 - L298N motor driver for operating the actuator and drill motors.
 By integrating these components onto a single shield, the design simplifies the connections, enhances reliability, and ensures compatibility with the Arduino Mega 2560.
+
 ![image](https://github.com/user-attachments/assets/7a5cdf12-20af-44d9-a175-e186e31d7bfa)
