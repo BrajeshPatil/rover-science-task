@@ -7,6 +7,7 @@ This shield enables interfacing with a variety of sensors, including:
 - SHT20 (Temperature and Humidity Sensor)
 - MQ135 (Gas Sensor for Air Quality)
 - HX711 (Load Cell Amplifier)
+
 Additionally, the shield provides interfaces for:
 - A4988 stepper motor driver for controlling the NEMA17 stepper motor.
 - L298N motor driver for operating the actuator and drill motors.
