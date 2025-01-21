@@ -2,7 +2,7 @@
 Module designed for in-situ soil testing directly on the rover.
 
 # Table of Contents
-- [esp32-audio-router](#rover-science-task)
+- [rover-science-task](#rover-science-task)
   - [Table of Contents](#table-of-contents)
   - [Demonstrations](#demonstrations)
   - [About the project](#about-the-project)
