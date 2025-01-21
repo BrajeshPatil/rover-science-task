@@ -29,14 +29,15 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 4. Autonomous Mission: The rover is required to traverse between markers across moderately rugged terrain autonomously using arrow signs.
 
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
-![WhatsApp Image 2025-01-22 at 3 06 34 AM](https://github.com/user-attachments/assets/e7dedd7f-cf5b-4842-b0e7-e4892416760b)
-![WhatsApp Image 2025-01-22 at 3 06 35 AM](https://github.com/user-attachments/assets/f25d01be-084c-40e7-8647-512c3d33de52)
 
 # About the project
 The following are the requirements of the Science Module:
 - Collect three soil samples—two of which will be tested directly on the rover, while the third sample will remain untouched and returned to the base station.
 - The sample to be collected at least 10cm below the surface.
 - Analysis should be conducted on both soil and atmosphere.
+
+Following mecahnical design was made to achieve these requirements:
+| ![Image 1](https://github.com/user-attachments/assets/505d1ccb-4033-4dc9-970c-caf54a1e185e) | ![Image 2](https://github.com/user-attachments/assets/cf1292f8-9e6c-47e9-9faf-bec5a3ce0b93) |
 
 Working of the Science Module:
 - We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
