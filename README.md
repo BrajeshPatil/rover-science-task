@@ -17,10 +17,11 @@ Requirements of the Science Module:
 - Analysis should be conducted on both soil and atmosphere.
 
 Mechanical Design for the Science Task
-<div style="display: flex; padding: 0 50px;">  <!-- Padding left and right -->
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 50px;">
   <img src="https://github.com/user-attachments/assets/505d1ccb-4033-4dc9-970c-caf54a1e185e" style="height:300px;">
   <img src="https://github.com/user-attachments/assets/cf1292f8-9e6c-47e9-9faf-bec5a3ce0b93" style="height:300px;">
 </div>
+
 
 Working
 - We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
