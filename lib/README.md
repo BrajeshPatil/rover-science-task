@@ -1,10 +1,10 @@
-The following is a list libraries which you need to install in order to compile the code:
-1. AccelStepper by Mike McCauley
-2. Adafruit BMP085 Library by Adafruit
-3. Adafruit MLX90614 Library by Adafruit
-4. MQ135 by GeorgK, ViliusKraujutis, NuclearPhoenixx
-5. DFRobot_SHT20 by DFRobot
-6. DHT.h (Use the one in lib directory)
+The code was tested to be working successfully on these versions of the libraries:
+1. AccelStepper by Mike McCauley (1.64.0)
+2. Adafruit BMP085 Library by Adafruit (1.2.4)
+3. Adafruit MLX90614 Library by Adafruit (2.1.5)
+4. MQ135 by GeorgK, ViliusKraujutis, NuclearPhoenixx (1.1.1)
+5. DFRobot_SHT20 by DFRobot (1.0.0)
+6. DHT.h (Use the one in lib directory) 
 
 Two ways to install libraries: 
 - Installing in-built libraries
