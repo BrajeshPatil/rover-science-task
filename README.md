@@ -56,6 +56,7 @@ Working
 - Now for the third location we dont need to test but only collect the soil and bring it to the base station untouched.
 
 File Structure
+
 .
 ├── hardware                    # Contains data sheets and PCB manufacturing files
 │   ├── datasheets              # Data sheets for sensors and components
