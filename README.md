@@ -1,14 +1,6 @@
 # Rover Science Task
 Module designed for in-situ soil testing directly on the rover.
 
-# Table of Contents
-- [Rover Science Task](#rover-science-task)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [About the project](#about-the-project)
-    - [Requirements of the Science Module](#requirements-of-the-science-module)
-    - [Working](#working)
-
 # Overview
 Vishwa, Vjti participated in the International Rover Challenge 2023. The rover primarily was supposed to perform four tasks: 
 1. Science Task: The rover has to collect samples, perform analysis and seek signs of life.
