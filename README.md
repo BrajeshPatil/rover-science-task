@@ -37,7 +37,8 @@ The following are the requirements of the Science Module:
 - Analysis should be conducted on both soil and atmosphere.
 
 Following mecahnical design was made to achieve these requirements:
-| ![Image 1](https://github.com/user-attachments/assets/505d1ccb-4033-4dc9-970c-caf54a1e185e) | ![Image 2](https://github.com/user-attachments/assets/cf1292f8-9e6c-47e9-9faf-bec5a3ce0b93) |
+| ![Image 1](https://github.com/user-attachments/assets/505d1ccb-4033-4dc9-970c-caf54a1e185e){:width="300"} | ![Image 2](https://github.com/user-attachments/assets/cf1292f8-9e6c-47e9-9faf-bec5a3ce0b93){:width="300"} |
+
 
 Working of the Science Module:
 - We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
