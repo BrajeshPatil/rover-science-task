@@ -46,7 +46,7 @@ This repository primarily provides hardware designs and code samples for the **S
   - The right-hand side (RHS) image shows chemical containers and solenoid valves for pumping chemicals as needed.
 
 **Working**
-1. Sit Identification:
+1. Site Identification:
     - The MLX90614 infrared temperature sensor scans the ground for sudden changes in temperature.
     - If significant temperature changes are detected, the site is selected for testing.
 2. Soil Collection:
