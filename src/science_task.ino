@@ -28,6 +28,8 @@ struct SensorData {
   float mlxAmbient;
   float mlxObject;
   float mq135PPM;
+  float sht20humd;
+  float sht20temp;
 };
 
 // Objects
@@ -117,7 +119,8 @@ SensorData readSensors() {
   data.mlxAmbient = mlx.readAmbientTempC();
   data.mlxObject = mlx.readObjectTempC();
   data.mq135PPM = gasSensor.getPPM();
-
+  data.sht20humd = sht20.readHumidity();
+  data.sht20temp = sht20.readTemperature();
   return data;
 }
 
