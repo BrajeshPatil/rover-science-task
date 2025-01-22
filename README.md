@@ -22,6 +22,18 @@ Mechanical Design for the Science Task
   <img src="https://github.com/user-attachments/assets/a7b5eeca-0aac-46d9-84c4-707d1d9a66e2" style="height:400px;">
 </div>
 
+Component placement:
+- Nema17 placed under position 1 marked in the LHS image.
+- The position 2 points to the drill motor to which the 3D printed drill is attached.
+- Behind the actuator at position 3 is the Science Task PCB. Following components are present on the PCB:
+  -  A4988 Stepper Motor Driver
+  -  BMP180
+  -  DHT22
+- The SHT20 and MQ135 sensors will pr present inside the white containers for gas detection after the reaction and temperature and humidity tesing of soil.
+- Position 4 points to the L298N motor drivers.
+- Position 5 is the actuator.
+- The MLX90614 sensor has been attached below the box pointing towards the ground.
+
 Working
 - We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
 - If sudden changes in temperature were found the particular site would be used for testing.
