@@ -13,22 +13,39 @@ This repository primarily provides hardware designs and code samples for the **S
 # File Structure
 `.
 ├── Components                           # Contains files of specific library of functions or Hardware used
+
 │   ├──WM8960                            # Library for WM8960
+
 |       |──CMakeLists.txt
+
 |       |──wm8960.c
+
 |   |──a2dp_sink                         # a2dp sink source codes 
+
 |       |──bt_app_core.c
+
 |       |──bt_app_av.c
+
 ├── frontend                             # Frontend file
+
 │   ├── index.html                       # Code for frontend 
+
 ├── main                                 # Source files 
+
 │   ├──main.c                            # Main Source code to be executed
+
 |   ├──tuning_http_server.c              # Source code for http server
+
 |   ├──wifi_handler.c                    # Source code for handling wifi operations
+
 │   ├──kconfig.projbuild                 # defines the entries of the menu for configuration
+
 │   ├──CMakeLists.txt                    # contains commands to include the bluetooth library and main.c in esp-idf
+
 ├── CmakeLists.txt                       # contains commands to include Components and main folder while executing
+
 ├── LICENSE
+
 └── README.md` 
 
 # About the project
