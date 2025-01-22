@@ -11,7 +11,7 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
 
 # File Structure
-.
+`.
 |   LICENSE
 |   README.md
 |
@@ -53,7 +53,7 @@ This repository primarily provides hardware designs and code samples for the **S
 |
 \---src
         science_task.ino
-
+`
 # About the project
 **Requirements of the Science Module:**
 - Sample Collection:
