@@ -63,3 +63,25 @@ This repository primarily provides hardware designs and code samples for the **S
     - The above procedure is repeated for a second site to test another soil sample in a new container.
 6. Sample Return:
     - For the third location, the soil is collected without testing and returned to the base station untouched.
+
+# File Structure
+```
+.
+├───hardware                                  # Directory containing hardware-related files and documentation
+│   ├───datasheets                            # Folder containing datasheets for various components
+│   └───pcb                                   # Folder containing PCB design files and documentation
+│       │   README.md                         # General information about the Arduino MEGA Shield
+│       └───PCB_Gerber_Files                  # Gerber files used for PCB manufacturing
+├───lib                                       # Directory containing library files used in projects
+│       AccelStepper-1.64.0.zip               # AccelStepper library version 1.64.0
+│       Adafruit_BMP085_Library-1.2.4.zip     # Adafruit BMP085 library version 1.2.4
+│       Adafruit_MLX90614_Library-2.1.5.zip   # Adafruit MLX90614 library version 2.1.5
+│       DFRobot_SHT20-1.0.0.zip               # DFRobot SHT20 library version 1.0.0
+│       DHT-sensor-library-master.zip         # DHT sensor library
+│       MQ135-1.1.1.zip                       # MQ135 sensor library version 1.1.1
+│       README.md                             # General information about libraries included
+├───src                                       # Directory containing the main source code for the project
+|       science_task.ino                      # Main Arduino sketch for the science task implementation
+├───LICENSE                                   # License file for the project
+├───README.md                                 # General information about the project
+```
