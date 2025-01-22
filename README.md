@@ -11,42 +11,24 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
 
 # File Structure
-`.
-├── Components                           # Contains files of specific library of functions or Hardware used
-
-│   ├──WM8960                            # Library for WM8960
-
-|       |──CMakeLists.txt
-
-|       |──wm8960.c
-
-|   |──a2dp_sink                         # a2dp sink source codes 
-
-|       |──bt_app_core.c
-
-|       |──bt_app_av.c
-
-├── frontend                             # Frontend file
-
-│   ├── index.html                       # Code for frontend 
-
-├── main                                 # Source files 
-
-│   ├──main.c                            # Main Source code to be executed
-
-|   ├──tuning_http_server.c              # Source code for http server
-
-|   ├──wifi_handler.c                    # Source code for handling wifi operations
-
-│   ├──kconfig.projbuild                 # defines the entries of the menu for configuration
-
-│   ├──CMakeLists.txt                    # contains commands to include the bluetooth library and main.c in esp-idf
-
-├── CmakeLists.txt                       # contains commands to include Components and main folder while executing
-
-├── LICENSE
-
-└── README.md` 
+- rover-science-task
+  - hardware
+    - datasheets
+    - pcb
+      - PCB_Gerber_Files
+      - README.md
+  - lib
+    - AccelStepper-1.64.0.zip
+    - Adafruit_BMP085_Library-1.2.4.zip
+    - Adafruit_MLX90614_Library-2.1.5.zip
+    - DFRobot_SHT20-1.0.0.zip
+    - DHT-sensor-library-master.zip
+    - MQ135-1.1.1.zip
+    - README.md
+  - src
+    - science_task.ino
+  - LICENSE
+  - README.md
 
 # About the project
 **Requirements of the Science Module:**
