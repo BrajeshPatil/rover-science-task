@@ -11,49 +11,63 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
 
 # File Structure
-`.
-|   LICENSE
-|   README.md
-|
-+---hardware
-|   +---datasheets
-|   |       A4988.pdf
-|   |       Arduino Mega 2560.pdf
-|   |       BMP180.pdf
-|   |       DHT22.pdf
-|   |       L298N.pdf
-|   |       MLX90614.pdf
-|   |       MQ135.PDF
-|   |       NEMA17.PDF
-|   |       SHT20.pdf
-|   |
-|   \---pcb
-|       |   README.md
-|       |
-|       \---PCB_Gerber_Files
-|               Drill_PTH_Through.DRL
-|               Drill_PTH_Through_Via.DRL
-|               Gerber_BoardOutlineLayer.GKO
-|               Gerber_BottomLayer.GBL
-|               Gerber_BottomSilkscreenLayer.GBO
-|               Gerber_BottomSolderMaskLayer.GBS
-|               Gerber_TopLayer.GTL
-|               Gerber_TopPasteMaskLayer.GTP
-|               Gerber_TopSilkscreenLayer.GTO
-|               Gerber_TopSolderMaskLayer.GTS
-|
-+---lib
-|       AccelStepper-1.64.0.zip
-|       Adafruit_BMP085_Library-1.2.4.zip
-|       Adafruit_MLX90614_Library-2.1.5.zip
-|       DFRobot_SHT20-1.0.0.zip
-|       DHT-sensor-library-master.zip
-|       MQ135-1.1.1.zip
-|       README.md
-|
-\---src
-        science_task.ino
-`
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 40px;
+}
+
+.folder {
+    margin-left: 20px;
+    position: relative;
+}
+
+.folder:before {
+    content: "📂 ";
+}
+
+.file {
+    margin-left: 40px;
+    position: relative;
+}
+
+.file:before {
+    content: "📄 ";
+}
+
+.tree {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Specific tree structure based on your file hierarchy */
+.tree > li.folder {
+    margin-left: 20px;
+}
+
+.tree .folder ul {
+    list-style-type: none;
+}
+
+.tree .folder ul li {
+    margin-left: 20px;
+}
+
+.tree .folder ul .folder {
+    margin-left: 40px;
+}
+
+.tree .folder ul .folder ul {
+    list-style-type: none;
+}
+
+.tree .folder ul .folder ul li {
+    margin-left: 20px;
+}
+
+.tree .folder ul .file {
+    margin-left: 40px;
+}
+
 # About the project
 **Requirements of the Science Module:**
 - Sample Collection:
