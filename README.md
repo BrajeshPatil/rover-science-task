@@ -23,7 +23,6 @@ This repository primarily provides hardware designs and code samples for the **S
 **Hardware Architecture**
 
 <img src="https://github.com/user-attachments/assets/f27057eb-0e8e-4ae2-a33c-66cae70ec69e" alt="Hardware Architecture" style="width: 600px;">
-![Your paragraph text (3)](https://github.com/user-attachments/assets/f27057eb-0e8e-4ae2-a33c-66cae70ec69e)
 
 **Mechanical Design for the Science Task**
 <div style="display: flex; gap: 50px;">
