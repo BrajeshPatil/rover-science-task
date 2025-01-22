@@ -17,7 +17,8 @@ This repository primarily provides hardware designs and code samples for the **S
 - Analysis should be conducted on both soil and atmosphere.
 
 **Hardware Architecture**
-<img src="https://github.com/user-attachments/assets/4a7da446-41b4-45cb-a813-346f8f3a9b57" alt="Your paragraph text (1)" style="width: 300px;">
+
+<img src="https://github.com/user-attachments/assets/4a7da446-41b4-45cb-a813-346f8f3a9b57" alt="Hardware Architecture" style="width: 800px;">
 
 **Mechanical Design for the Science Task**
 <div style="display: flex; gap: 50px;">
