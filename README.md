@@ -25,7 +25,7 @@ This repository primarily provides hardware designs and code samples for the **S
 **Component placement:**
 - Nema17 placed under position 1 marked in the LHS image.
 - The position 2 points to the drill motor to which the 3D printed drill is attached.
-- Behind the actuator at position 3 is the Science Task PCB. Following components are present on the PCB:
+- Behind the actuator at position 3 is the ****Arduino MEGA with the shield****. Following components are present on the PCB:
   -  A4988 Stepper Motor Driver
   -  BMP180
   -  DHT22
