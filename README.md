@@ -11,27 +11,27 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
 
 # File Structure
-`📦project-name/
- ┣ 📂docs/                # Documentation files
- ┃ ┣ 📜README.md          # Project introduction and guide
- ┃ ┣ 📜CONTRIBUTING.md     # Guidelines for contributing
- ┃ ┣ 📜LICENSE             # License file
- ┣ 📂src/                  # Source code
- ┃ ┣ 📂components/         # Reusable components or modules
- ┃ ┃ ┣ 📜component1.js    # Component 1 code
- ┃ ┃ ┣ 📜component2.js    # Component 2 code
- ┃ ┣ 📜main.js             # Main entry point of the application
- ┣ 📂tests/                # Test files
- ┃ ┣ 📜test1.js            # Test script for module 1
- ┃ ┣ 📜test2.js            # Test script for module 2
- ┣ 📂config/               # Configuration files
- ┃ ┣ 📜config.json         # Configurations for environments
- ┣ 📂assets/                # Static assets (images, CSS, etc.)
- ┃ ┣ 📜logo.png            # Project logo
- ┣ 📜package.json          # Project dependencies and scripts
- ┣ 📜index.html            # Main HTML file
- ┣ 📜webpack.config.js     # Webpack configuration (if applicable)
-`
+`📦project-name/`
+` ┣ 📂docs/                # Documentation files`
+` ┃ ┣ 📜README.md          # Project introduction and guide`
+` ┃ ┣ 📜CONTRIBUTING.md     # Guidelines for contributing`
+` ┃ ┣ 📜LICENSE             # License file`
+` ┣ 📂src/                  # Source code`
+` ┃ ┣ 📂components/         # Reusable components or modules`
+` ┃ ┃ ┣ 📜component1.js    # Component 1 code`
+` ┃ ┃ ┣ 📜component2.js    # Component 2 code`
+` ┃ ┣ 📜main.js             # Main entry point of the application`
+` ┣ 📂tests/                # Test files`
+` ┃ ┣ 📜test1.js            # Test script for module 1`
+` ┃ ┣ 📜test2.js            # Test script for module 2`
+` ┣ 📂config/               # Configuration files`
+` ┃ ┣ 📜config.json         # Configurations for environments`
+` ┣ 📂assets/                # Static assets (images, CSS, etc.)`
+` ┃ ┣ 📜logo.png            # Project logo`
+` ┣ 📜package.json          # Project dependencies and scripts`
+` ┣ 📜index.html            # Main HTML file`
+` ┣ 📜webpack.config.js     # Webpack configuration (if applicable)`
+
 # About the project
 **Requirements of the Science Module:**
 - Sample Collection:
