@@ -11,35 +11,25 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
 
 # File Structure
-
-docs/
-    README.md
-    CONTRIBUTING.md
-    LICENSE
-
-src/
-    main.js
-    app.js
-
-tests/
-    test_main.js
-    test_app.js
-
-config/
-    dev_config.js
-    prod_config.js
-
-assets/
-    images/
-        logo.png
-    css/
-        styles.css
-
-package.json
-index.html
-webpack.config.js
-
-
+`.
+├── Components                           # Contains files of specific library of functions or Hardware used
+│   ├──WM8960                            # Library for WM8960
+|       |──CMakeLists.txt
+|       |──wm8960.c
+|   |──a2dp_sink                         # a2dp sink source codes 
+|       |──bt_app_core.c
+|       |──bt_app_av.c
+├── frontend                             # Frontend file
+│   ├── index.html                       # Code for frontend 
+├── main                                 # Source files 
+│   ├──main.c                            # Main Source code to be executed
+|   ├──tuning_http_server.c              # Source code for http server
+|   ├──wifi_handler.c                    # Source code for handling wifi operations
+│   ├──kconfig.projbuild                 # defines the entries of the menu for configuration
+│   ├──CMakeLists.txt                    # contains commands to include the bluetooth library and main.c in esp-idf
+├── CmakeLists.txt                       # contains commands to include Components and main folder while executing
+├── LICENSE
+└── README.md` 
 
 # About the project
 **Requirements of the Science Module:**
