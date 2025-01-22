@@ -10,63 +10,43 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
 
-# File Structure
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 40px;
-}
-
-.folder {
-    margin-left: 20px;
-    position: relative;
-}
-
-.folder:before {
-    content: "📂 ";
-}
-
-.file {
-    margin-left: 40px;
-    position: relative;
-}
-
-.file:before {
-    content: "📄 ";
-}
-
-.tree {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-/* Specific tree structure based on your file hierarchy */
-.tree > li.folder {
-    margin-left: 20px;
-}
-
-.tree .folder ul {
-    list-style-type: none;
-}
-
-.tree .folder ul li {
-    margin-left: 20px;
-}
-
-.tree .folder ul .folder {
-    margin-left: 40px;
-}
-
-.tree .folder ul .folder ul {
-    list-style-type: none;
-}
-
-.tree .folder ul .folder ul li {
-    margin-left: 20px;
-}
-
-.tree .folder ul .file {
-    margin-left: 40px;
-}
+<ul class="tree">
+    <li class="folder">hardware
+        <ul class="folder">
+            <li class="file">datasheets
+                <ul>
+                    <li class="file">A4988.pdf</li>
+                    <li class="file">Arduino Mega 2560.pdf</li>
+                    <!-- ...other files -->
+                </ul>
+            </li>
+            <li class="folder">pcb
+                <ul class="folder">
+                    <li class="file">README.md</li>
+                    <li class="folder">PCB_Gerber_Files
+                        <ul class="folder">
+                            <li class="file">Drill_PTH_Through.DRL</li>
+                            <li class="file">Drill_PTH_Through_Via.DRL</li>
+                            <!-- ...other files -->
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="folder">lib
+        <ul class="folder">
+            <li class="file">AccelStepper-1.64.0.zip</li>
+            <li class="file">Adafruit_BMP085_Library-1.2.4.zip</li>
+            <!-- ...other libraries -->
+        </ul>
+    </li>
+    <li class="folder">src
+        <ul class="folder">
+            <li class="file">science_task.ino</li>
+        </ul>
+    </li>
+</ul>
 
 # About the project
 **Requirements of the Science Module:**
