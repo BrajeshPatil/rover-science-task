@@ -18,8 +18,8 @@ Requirements of the Science Module:
 
 Mechanical Design for the Science Task
 <div style="display: flex; gap: 50px;">
-  <img src="https://github.com/user-attachments/assets/505d1ccb-4033-4dc9-970c-caf54a1e185e" style="height:400px;">
-  <img src="https://github.com/user-attachments/assets/cf1292f8-9e6c-47e9-9faf-bec5a3ce0b93" style="height:400px;">
+  <img src="![WhatsApp Image 2025-01-22 at 3 06 35 AM](https://github.com/user-attachments/assets/25ba1a3a-6c04-4f86-8cbf-a7758d4d1227)" style="height:400px;">
+  <img src="![WhatsApp Image 2025-01-22 at 3 06 34 AM](https://github.com/user-attachments/assets/a7b5eeca-0aac-46d9-84c4-707d1d9a66e2)" style="height:400px;">
 </div>
 
 Working
