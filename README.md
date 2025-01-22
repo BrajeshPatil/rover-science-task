@@ -46,5 +46,5 @@ This repository primarily provides hardware designs and code samples for the **S
 - Same procedure will followed by finding a new location and testing soil in the other container.
 - Now for the third location we dont need to test but only collect the soil and bring it to the base station untouched.
 
+![Your paragraph text (1)](https://github.com/user-attachments/assets/4a7da446-41b4-45cb-a813-346f8f3a9b57)
 ![Your_paragraph_text__1_-removebg](https://github.com/user-attachments/assets/7e3d3385-06b4-4ba1-b4d5-be5eb2614c38)
-
