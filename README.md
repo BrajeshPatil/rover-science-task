@@ -12,9 +12,13 @@ This repository primarily provides hardware designs and code samples for the **S
 
 # About the project
 **Requirements of the Science Module:**
-- Collect three soil samples—two of which will be tested directly on the rover, while the third sample will remain untouched and returned to the base station.
-- The sample to be collected at least 10cm below the surface.
-- Analysis should be conducted on both soil and atmosphere.
+- Sample Collection:
+  - Collect three soil samples:
+    1. Two samples tested directly on the rover.
+    2. One sample returned to the base station untouched.
+  - Samples must be collected from at least 10 cm below the surface.
+- Analysis:
+  - Conduct tests on both soil and atmosphere.
 
 **Hardware Architecture**
 
@@ -27,25 +31,35 @@ This repository primarily provides hardware designs and code samples for the **S
 </div>
 
 **Component placement:**
-- Nema17 placed under position 1 marked in the LHS image.
-- The position 2 points to the drill motor to which the 3D printed drill is attached.
-- Behind the actuator at position 3 is the ****Arduino MEGA with the shield****. Following components are present on the PCB:
-  -  A4988 Stepper Motor Driver
-  -  BMP180
-  -  DHT22
-- The SHT20 and MQ135 sensors will pr present inside the white containers for gas detection after the reaction and temperature and humidity tesing of soil.
-- Position 4 points to the L298N motor drivers.
-- Position 5 is the actuator.
-- The MLX90614 sensor has been attached below the box pointing towards the ground.
-- The right hand side image showcases the containers for storing the chemicals and the solenoid valves for pumping the chemicals whenever required.
+- Position 1: Nema17 stepper motor placed under the marked area in the left-hand side (LHS) image.
+- Position 2: Drill motor with a 3D-printed drill attached.
+- Position 3: Behind the actuator lies the Arduino MEGA with the shield. Components on the PCB include:
+  - A4988 Stepper Motor Driver
+  - BMP180
+  - DHT22
+- Other Sensors:
+  - SHT20 and MQ135 are placed inside white containers for gas detection (post-reaction) and soil temperature and humidity testing.
+- Position 4: L298N motor drivers.
+- Position 5: Actuator.
+- MLX90614: Infrared temperature sensor placed below the box, pointing towards the ground.
+- Chemical Storage and Pumping:
+  - The right-hand side (RHS) image shows chemical containers and solenoid valves for pumping chemicals as needed.
 
 **Working**
-- We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
-- If sudden changes in temperature were found the particular site would be used for testing.
-- Once a site is decided, soil collection will take place as follows:
-    - The actuator will move downwards, and the drill will rotate in a clockwise direction. The soil sample settles on the steps of the drill as it digs into the ground.
-    - The drill being still, actuator will move upwards. Now the stepper motor will move and make sure it is just below the drill.
-    - The drill will now move in anti-clockwise direction and soil will be collected in the testing containers.
-    - Further, some chemicals will be added to the soil. If methane gas is generate it would be detected by the MQ135 sensor prediction above life can be made.
-- Same procedure will followed by finding a new location and testing soil in the other container.
-- Now for the third location we dont need to test but only collect the soil and bring it to the base station untouched.
+1. Sit Identification:
+  - The MLX90614 infrared temperature sensor scans the ground for sudden changes in temperature.
+  - If significant temperature changes are detected, the site is selected for testing.
+2. Soil Collection:
+  - The actuator moves downward while the drill rotates clockwise, digging into the ground.
+  - Soil samples settle on the steps of the drill.
+  - Once the sample is collected, the actuator moves upwards, keeping the drill stationary.
+  - The stepper motor ensures the testing container is positioned directly beneath the drill.
+3. Soil Transfer:
+  - The drill rotates counter-clockwise to release soil into the testing containers.
+4. Chemical Testing:
+  - Chemicals are added to the soil.
+  - If methane gas is detected (via the MQ135 sensor), the presence of life can be inferred.
+5. Repetition:
+  - The above procedure is repeated for a second site to test another soil sample in a new container.
+6. Sample Return:
+  - For the third location, the soil is collected without testing and returned to the base station untouched.
