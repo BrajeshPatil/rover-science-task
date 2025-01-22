@@ -48,3 +48,5 @@ This repository primarily provides hardware designs and code samples for the **S
 
 ![Your paragraph text (1)](https://github.com/user-attachments/assets/4a7da446-41b4-45cb-a813-346f8f3a9b57)
 ![Your_paragraph_text__1_-removebg](https://github.com/user-attachments/assets/7e3d3385-06b4-4ba1-b4d5-be5eb2614c38)
+![Your_paragraph_text__2_-removebg-preview (1)](https://github.com/user-attachments/assets/ad6910b5-cde8-4383-a238-16bc158de46e)
+
