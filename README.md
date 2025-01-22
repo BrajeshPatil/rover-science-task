@@ -33,6 +33,7 @@ This repository primarily provides hardware designs and code samples for the **S
 - Position 4 points to the L298N motor drivers.
 - Position 5 is the actuator.
 - The MLX90614 sensor has been attached below the box pointing towards the ground.
+- The right hand side image showcases the containers for storing the chemicals and the solenoid valves for pumping the chemicals whenever required.
 
 **Working**
 - We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
