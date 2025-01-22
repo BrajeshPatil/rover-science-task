@@ -45,3 +45,6 @@ This repository primarily provides hardware designs and code samples for the **S
     - Further, some chemicals will be added to the soil. If methane gas is generate it would be detected by the MQ135 sensor prediction above life can be made.
 - Same procedure will followed by finding a new location and testing soil in the other container.
 - Now for the third location we dont need to test but only collect the soil and bring it to the base station untouched.
+
+![Your_paragraph_text__1_-removebg](https://github.com/user-attachments/assets/7e3d3385-06b4-4ba1-b4d5-be5eb2614c38)
+
