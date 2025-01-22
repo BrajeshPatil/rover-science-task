@@ -11,18 +11,18 @@ Vishwa, Vjti participated in the International Rover Challenge 2023. The rover p
 This repository primarily provides hardware designs and code samples for the **Science Task**. 
 
 # About the project
-Requirements of the Science Module:
+**Requirements of the Science Module:**
 - Collect three soil samples—two of which will be tested directly on the rover, while the third sample will remain untouched and returned to the base station.
 - The sample to be collected at least 10cm below the surface.
 - Analysis should be conducted on both soil and atmosphere.
 
-Mechanical Design for the Science Task
+**Mechanical Design for the Science Task**
 <div style="display: flex; gap: 50px;">
   <img src="https://github.com/user-attachments/assets/25ba1a3a-6c04-4f86-8cbf-a7758d4d1227" style="height:400px;">
   <img src="https://github.com/user-attachments/assets/a7b5eeca-0aac-46d9-84c4-707d1d9a66e2" style="height:400px;">
 </div>
 
-Component placement:
+**Component placement:**
 - Nema17 placed under position 1 marked in the LHS image.
 - The position 2 points to the drill motor to which the 3D printed drill is attached.
 - Behind the actuator at position 3 is the Science Task PCB. Following components are present on the PCB:
@@ -34,7 +34,7 @@ Component placement:
 - Position 5 is the actuator.
 - The MLX90614 sensor has been attached below the box pointing towards the ground.
 
-Working
+**Working**
 - We employed an MLX90614 infrared temperature sensor which was pointing towards the ground and was checking for any sudden changes in temperature.
 - If sudden changes in temperature were found the particular site would be used for testing.
 - Once a site is decided, soil collection will take place as follows:
