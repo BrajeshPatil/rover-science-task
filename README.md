@@ -47,19 +47,19 @@ This repository primarily provides hardware designs and code samples for the **S
 
 **Working**
 1. Sit Identification:
-  - The MLX90614 infrared temperature sensor scans the ground for sudden changes in temperature.
-  - If significant temperature changes are detected, the site is selected for testing.
+    - The MLX90614 infrared temperature sensor scans the ground for sudden changes in temperature.
+    - If significant temperature changes are detected, the site is selected for testing.
 2. Soil Collection:
-  - The actuator moves downward while the drill rotates clockwise, digging into the ground.
-  - Soil samples settle on the steps of the drill.
-  - Once the sample is collected, the actuator moves upwards, keeping the drill stationary.
-  - The stepper motor ensures the testing container is positioned directly beneath the drill.
+    - The actuator moves downward while the drill rotates clockwise, digging into the ground.
+    - Soil samples settle on the steps of the drill.
+    - Once the sample is collected, the actuator moves upwards, keeping the drill stationary.
+    - The stepper motor ensures the testing container is positioned directly beneath the drill.
 3. Soil Transfer:
-  - The drill rotates counter-clockwise to release soil into the testing containers.
+    - The drill rotates counter-clockwise to release soil into the testing containers.
 4. Chemical Testing:
-  - Chemicals are added to the soil.
-  - If methane gas is detected (via the MQ135 sensor), the presence of life can be inferred.
+    - Chemicals are added to the soil.
+    - If methane gas is detected (via the MQ135 sensor), the presence of life can be inferred.
 5. Repetition:
-  - The above procedure is repeated for a second site to test another soil sample in a new container.
+    - The above procedure is repeated for a second site to test another soil sample in a new container.
 6. Sample Return:
-  - For the third location, the soil is collected without testing and returned to the base station untouched.
+    - For the third location, the soil is collected without testing and returned to the base station untouched.
